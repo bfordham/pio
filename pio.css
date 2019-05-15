@@ -1,0 +1,3 @@
+[data-testid="sidebarColumn"] { display: none; }
+[data-testid="primaryColumn"] { max-width: 800px; }
+[data-testid="primaryColumn"] div { max-width: 800px; }

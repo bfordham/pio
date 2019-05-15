@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 2,
+  "name": "Pío",
+  "version": "0.1",
+
+  "description": "Clean up Twitter.com, at least how I like it.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitter.com/*"],
+      "css": ["pio.css"]
+    }
+  ],
+
+  "applications": {
+    "gecko": {
+      "id": "pio@nativesavannah.com"
+    }
+  }
+
+}
